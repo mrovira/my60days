@@ -1,130 +1,119 @@
 <script>
-  import LineChartInteractive from "./LineChartInteractive.svelte";
-  import ScatterPlot from "./ScatterPlot.svelte";
-  import BarChart from "./BarChart.svelte";
-  import SmallMultipleLine from "./SmallMultipleLine.svelte";
-  import SmallMultipleLineMeat from "./SmallMultipleLineMeat.svelte";
+  import { LayerCake, Svg } from 'layercake';
+  import { scaleLinear } from 'd3-scale';
+  import MyRadar from 'src\components\myRadar.svelte';
+  import data from 'src\data\data.json';
+  import * as d3 from 'd3';
+
+  const options = {
+    width: 500,
+    height: 500,
+    padding: 50,
+    xKey: 'day_of_the_week',
+    yKeys: ['tiredness', 'motivation'],
+    yKeyLabels: ['Tiredness', 'Motivation'],
+    yKeyColors: ['#ff0000', '#00ff00'],
+    yKeyMin: 0,
+    yKeyMax: 10,
+    xLabel: 'Day of the Week'
+  };
+
+  /*name,fastball,change,slider,cutter,curve
+  Allison,10,0,4,8,5
+  */
 </script>
 
-<main>
-  <h1>
-    <span>Argentina leads world in football ⚽🏆…</span><br />and meat-eating
-    🥩🍗
-  </h1>
-  <p class="byline">
-    By Guifré Jordan, Marina Rovira Boix and Stephanie Adeline
-  </p>
+<div>
+ <h1>60 days of reading.... or not</h1>
 
-  <!-- <h4 style="font-weight: bold;">About the project</h4> -->
-  <p>
-    In order to solve the climate crisis, many experts have said that the world
-    needs to transition to a less meat-based diet and more plant-based diet. But
-    there are lots of factors that influence how much meat a nation consumes.
-  </p>
+ <div> 
+   <section id=requadre1>
+     <h2>Reading progress</h2>
+ <!--    <table>
+       <tr>
+         <td><img src="./images/001.jpeg" alt="1"/></td>
+         <td><img src="./images/002.jpeg" alt="2"/></td>
+         <td><img src="./images/003.jpeg" alt="3"/></td>
+         <td><img src="./images/004.jpeg" alt="4"/></td>
+         <td><img src="./images/005.jpeg" alt="5"/></td>
+         <td><img src="./images/006.jpeg" alt="6"/></td>
+       </tr>
+     </table>-->
+      <div class="row">
+        <div class="column">
+          <img src="src\images\001.jpeg" alt="1"/>
+          <img src="src\images\011.jpg" alt="1"/>
+        </div>
+        <div class="column">
+          <img src="src\images\002.jpeg" alt="2"/>
+        </div>
+        <div class="column">
+          <img src="src\images\003.jpeg" alt="3"/>
+        </div>
+        <div class="column">
+          <img src="src\images\004.jpeg" alt="4"/>
+        </div>
+        <div class="column">
+          <img src="src\images\005.jpg" alt="5"/>
+        </div>
+        <div class="column">
+          <img src="src\images\006.jpg" alt="6"/>
+        </div>
+        <div class="column">
+          <img src="src\images\007.1.jpg" alt="7.1"/>
+          <img src="src\images\007.2.jpeg" alt="7.2"/>
+        </div>
+        <div class="column">
+          <img src="src\images\008.jpg" alt="8"/>
+        </div>
+        <div class="column">
+          <img src="src\images\009.jpeg" alt="9"/>
+        </div>
+        <div class="column">
+          <img src="src\images\010.jpeg" alt="10"/>
+        </div>
+      </div>
+   </section>	
+ </div>
 
-  <p>
-    Consumption of meat across the globe over the past three decades have
-    increased for some countries, but decreased for some others, and it may have
-    to do with the wealth and inequality of that country. We look into the
-    relationship between meat consumption, wealth and inequality. You can also
-    explore our interactive charts to see trends in consumption in general or
-    other goods, such as electricity and even electric vehicles.
-  </p>
-
-  <p>
-    For this work official data from the OECD, as well as a dataset from the
-    Climate Action Tracker independent scientific analysis, is used. The
-    project also uses the Penn World Table, maintained by the University of
-    California and the University of Groningen, and the World Inequality
-    Database (WID), maintained by the World Inequality Lab, located in Paris.
-  </p>
-
-  <SmallMultipleLineMeat />
-
-  <p>
-    These small multiple line charts show how much of each type of meat several
-    countries across the globe eat, and the results are significant.
-  </p>
-
-  <SmallMultipleLine />
-
-  <h3>Meat consumption is falling in Europe and spiking in Asia</h3>
-
-  <p>
-    Veggie trends may have been gaining ground for several years, especially in
-    Europe and Oceania, where meat is no longer as popular as in the 1990s. In
-    Asia and the Americas, these way of life may not have picked up speed yet,
-    as meat has been going up (in some cases, even skyrocketed) in the past
-    three decades, with India and the Arab peninsula among the exceptions.
-  </p>
-
-  <p>
-    This bar chart displays the percentage change in meat consumption (in
-    general) for each selected country between 1991 and 2018.
-  </p>
-  <BarChart />
-
-  <h4>
-    Your turn to explore! How much of an impact do wealth and inequality have on
-    consumption of meat and other consumption indicators?
-  </h4>
-
-  <p>
-    These two interactive visualizations are two different ways to get users
-    explore by themselves the impact of wealth (through GDP and GDP per capita),
-    productivity and inequality on general consumption, agricultural goods,
-    electric vehicles and electricity.
-  </p>
-
-  <p>
-    The very basic results anyone will find include the fact that the wealthier
-    a country is, the more it consumes, but this is not necessarily happening
-    with meat consumption. One of the reasons is that while some countries have
-    seen an increase in this indicator, others that used to be on top have a
-    downward trend now.
-  </p>
-
-  <ScatterPlot />
+</div>
 
 
-  <p>
-    Other interesting general correlations can be spotted, between electricity
-    or electric vehicle consumption and GDP per capita, or between productivity
-    or inequality and general consumption.
-  </p>
-
-  <p>
-    Yet, if users play a bit more around these two graphs will find out the huge
-    gap in consumption per person between the two biggest economies in the
-    world, which country is miles away from the rest in buying electric vehicles
-    or which two very northern and not very warm countries are in the global
-    lead in electricity consumption.
-  </p>
-
-  <LineChartInteractive />
-</main>
 
 <style>
-  p,
-  h1,
-  h4,
-  h3 {
-    text-align: left;
-    margin: 10px auto 10px auto;
-    max-width: 700px;
-  }
 
-  @media screen and (max-width: 700px) {
-    p {
-      max-width: 100vw;
-      margin: 10px auto 10px auto;
-    }
-  }
-  h1 span {
-    font-size: 35px;
-  }
+ #requadre1 {
+   background-color: white;
+   color: #3F93F4;
+   text-align: left;
+   vertical-align: top;
+   border-radius: 15px;
+ }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
 
-  p.byline {
-    padding-bottom: 30px;
-  }
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  max-width: 10%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
 </style>
+<!--
+  In app.svelte, you should import the MyRadarChart component that you created in MyRadarChart.svelte, 
+  as well as any other dependencies that you need. 
+  You should also define any options that you want to pass to the component, such as the width and height of the chart.
+
+In MyRadarChart.svelte, you should define the logic and structure of the component, 
+including any data processing or rendering that you need to do. 
+You should also specify any props that the component expects, such as the data and options.
+-->
