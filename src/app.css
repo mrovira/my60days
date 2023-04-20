@@ -1,7 +1,6 @@
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
@@ -26,20 +25,19 @@ a:hover {
 
 body {
   margin: 0;
-  min-width: 550px;
-  min-height: 100vh;
   display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-  font-family:'PT Serif', Times, serif;
 }
 
-p {
-  font-family:'PT Serif', Times, serif;
-
+.card {
+  padding: 2em;
 }
 
 #app {
@@ -47,9 +45,6 @@ p {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  display: flex;
-  place-items: center;
-  flex-direction: column;
 }
 
 button {
@@ -83,5 +78,3 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-
-

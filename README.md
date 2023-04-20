@@ -1,41 +1,47 @@
-# Group 2 Final project - Meat consumption
+# Svelte + Vite
 
-This repository contains the code for the Svelte project for the Cross-module final project in the Master's in Visual Tools to Empower Citizens program.
+This template should help get you started developing with Svelte in Vite.
 
-[Link to final project](https://mvtec2022-final.vercel.app/)
+## Recommended IDE Setup
 
-Prior to working on our final data visualizations in this repo, we started with exploratory notebooks in Observable.
-1. [First Notebook - Initial exploration of data](https://observablehq.com/d/1b27b0c79547839b)
-2. [2nd Notebook - D3 charts](https://observablehq.com/d/f9b6545ddbf85d55)
+[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
 
-## Setup
+## Need an official Svelte framework?
 
-To install the dependencies and run a local dev server run the following commands in your terminal, and then open the link shown in your terminal in a browser. The dev server will monitor your project for changes and auto-update whenever you save a file.
+Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
 
+## Technical considerations
+
+**Why use this over SvelteKit?**
+
+- It brings its own routing solution which might not be preferable for some users.
+- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+
+This template contains as little as possible to get started with Vite + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+
+Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+
+**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
+
+Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
+
+**Why include `.vscode/extensions.json`?**
+
+Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
+
+**Why enable `checkJs` in the JS template?**
+
+It is likely that most cases of changing variable types in runtime are likely to be accidental, rather than deliberate. This provides advanced typechecking out of the box. Should you like to take advantage of the dynamically-typed nature of JavaScript, it is trivial to change the configuration.
+
+**Why is HMR not preserving my local component state?**
+
+HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/rixo/svelte-hmr#svelte-hmr).
+
+If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
+
+```js
+// store.js
+// An extremely simple external store
+import { writable } from 'svelte/store'
+export default writable(0)
 ```
-npm i
-npm run dev
-```
-
-## Data processing
-
-This repository also contains the a [`datacleaning.js`](https://github.com/stephadeline/mvtec2022-final/blob/main/src/data/datacleaning.js) we wrote for processing the data for our visualization.
-It is located inside the [`data`](https://github.com/stephadeline/mvtec2022-final/tree/main/src/data) folder, along with the final datasets in json that we use for the charts, which includes:
-- `joined.json` - for the line chart and scatterplot
-- `meatChart.json` - for the type of meat small multiple line chart
-- `totalMeatDifference.json` - for the difference bar chart
-
-In order to run the data cleaning script, simply run `npm start`.
-
-## Potential improvements
-1. Improve the mobile version of the graphics. Currently it is only suitable for viewing on desktop.
-2. Improve the dark mode compatibility.
-3. Optimizing the dataset even more.
-4. Improve UI/UX interactivity.
-
-## Credits
-
-Story, code and visualisation by Guifré Jordan, Marina Rovira Boix and Stephanie Adeline.
-The template of this project was cloned from a previous [assignment repo](https://github.com/mvtec2022/week-6-stephadeline).
-Special thanks to Anton Bardera and Matt Osborn for helping us with this project :)
-
