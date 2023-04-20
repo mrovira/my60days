@@ -3,7 +3,8 @@
   import { LayerCake } from 'layercake';
   //const multilineColors1 = ['#18307b', '#eedd00','#eb6109','#fdb94d','#ed5975','#aaa','#00ff7f','#4488cc','#ee0000','#912c45','#63be21'];
   //const multilineColors2 = ['#008837','#a6dba0','#c2a5cf','#7b3294'];
-  import Radar from "./lib/radar/myRadar.svelte";
+  import RadarT from "./lib/radar/myRadarT.svelte";
+  import RadarM from "./lib/radar/myRadarM.svelte";
   //import dataRadar from '../../data/radar.json';
   let w;
   
@@ -20,7 +21,7 @@
     <p>For 60 days, I have tracked my progress reading.</p>
     <br>
 
-    <Radar></Radar>
+    <RadarT></RadarT>
     <p>The municipal elections, which are held every four years, are the ones that have the most impact on a day-to-day basis, because they serve to choose the representatives who will have the responsibility of adopting the policies most linked to the citizenry. The parties face them not only with the desire to take on the maximum number of mayors and representatives possible, but also as a platform to consolidate their local power.</p>
     <br>
     
@@ -29,6 +30,8 @@
       This is due to, in the municipalities, usually the main parties have a party there, but in some towns, the name is not a clear relation.
     </p>
  
+    <RadarM></RadarM>
+
     <h2>Exploration</h2>
     
     
