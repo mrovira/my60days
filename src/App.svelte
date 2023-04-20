@@ -1,8 +1,10 @@
 <script>
-  import BarChartLayer from "./lib/BarChartLayer.svelte";
-
-  const multilineColors1 = ['#18307b', '#eedd00','#eb6109','#fdb94d','#ed5975','#aaa','#00ff7f','#4488cc','#ee0000','#912c45','#63be21'];
-  const multilineColors2 = ['#008837','#a6dba0','#c2a5cf','#7b3294'];
+  
+  import { LayerCake } from 'layercake';
+  //const multilineColors1 = ['#18307b', '#eedd00','#eb6109','#fdb94d','#ed5975','#aaa','#00ff7f','#4488cc','#ee0000','#912c45','#63be21'];
+  //const multilineColors2 = ['#008837','#a6dba0','#c2a5cf','#7b3294'];
+  import Radar from "./lib/radar/myRadar.svelte";
+  //import dataRadar from '../../data/radar.json';
   let w;
   
 </script>
@@ -10,14 +12,15 @@
 <main>
   <header>
   
-    <h1>Catalunya Municipal Elections</h1>
-    <p>By Marina Rovira Boix, Joseph Ricafort, Pere Roca Ristol</p>
+    <h1>60 days of reading</h1>
+    <p>By Marina Rovira Boix</p>
   
   </header>
     <h2>Introduction</h2>
-    <p>The next 28th of May, people from 947 municipalities are summoned to the polls to choose which party will be elected for each of the country's councils. </p>
+    <p>For 60 days, I have tracked my progress reading.</p>
     <br>
 
+    <Radar></Radar>
     <p>The municipal elections, which are held every four years, are the ones that have the most impact on a day-to-day basis, because they serve to choose the representatives who will have the responsibility of adopting the policies most linked to the citizenry. The parties face them not only with the desire to take on the maximum number of mayors and representatives possible, but also as a platform to consolidate their local power.</p>
     <br>
     
@@ -146,13 +149,13 @@
   :global(body) 
   {
     
-    background: black;
+    background: #3F93F4;
   }
   :global(.maplibregl-popup-content) 
   {
     border: 1.5px solid white
   }
   :global(.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip, .maplibregl-popup-anchor-bottom .maplibregl-popup-tip) {
-    border-top-color: black;
+    border-top-color: #3F93F4;
   }
 </style>

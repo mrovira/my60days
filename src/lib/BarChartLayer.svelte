@@ -1,7 +1,6 @@
 <script>
   import * as d3 from "d3";
   import { onMount } from "svelte";
-  import tallyDataRaw from "../data/fiveyears_tally.json";
   let figureEl;
 
   let tallyData = tallyDataRaw.map((d) => ({
