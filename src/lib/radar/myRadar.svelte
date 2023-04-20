@@ -6,7 +6,7 @@
     import AxisRadial from './AxisRadial.svelte';
   
     // This example loads csv data as json using @rollup/plugin-dsv
-    import data from '../../data/tiredness.csv';
+    import data from '../../data/radar.json';
   
 
     const seriesKey = 'concept';
