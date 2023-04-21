@@ -2,7 +2,7 @@
     import { LayerCake, Svg } from 'layercake';
     import { scaleLinear } from 'd3-scale';
   
-    import Radar from './Radar.svelte';
+    import Radar from './RadarM.svelte';
     import AxisRadial from './AxisRadial.svelte';
   
     // This example loads csv data as json using @rollup/plugin-dsv
@@ -33,7 +33,7 @@
       expand to fill it.
     */
     .chart-container {
-      width: 100%;
+      width:100%;
       height: 250px;
     }
   </style>

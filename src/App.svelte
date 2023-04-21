@@ -5,6 +5,10 @@
   //const multilineColors2 = ['#008837','#a6dba0','#c2a5cf','#7b3294'];
   import RadarT from "./lib/radar/myRadarT.svelte";
   import RadarM from "./lib/radar/myRadarM.svelte";
+  //import MyBeeswarm from './lib/beeswarm/myBeeswarm.svelte';
+  import MyChart from './lib/LineArea/myChart.svelte';
+  import MyBeeswarmForce from './lib/beeswarnFroce/myBeeswarmForce.svelte';
+  import MyCricle from './lib/circleForce/myCricle.svelte';
   //import dataRadar from '../../data/radar.json';
   let w;
   
@@ -13,89 +17,62 @@
 <main>
   <header>
   
-    <h1>60 days of reading</h1>
+    <h1>60 days of reading 📚</h1>
     <p>By Marina Rovira Boix</p>
   
   </header>
-    <h2>Introduction</h2>
-    <p>For 60 days, I have tracked my progress reading.</p>
-    <br>
-
-    <RadarT></RadarT>
-    <p>The municipal elections, which are held every four years, are the ones that have the most impact on a day-to-day basis, because they serve to choose the representatives who will have the responsibility of adopting the policies most linked to the citizenry. The parties face them not only with the desire to take on the maximum number of mayors and representatives possible, but also as a platform to consolidate their local power.</p>
+    <h2>How has my progress been?</h2>
+    <p>This project aims to explore a little bit my reading habits within 60 days to check if I will achieve my goal in Goodreads of 18 book read this year 2023. For that, din these 60 days, I have tracked my progress reading, including the number of pages, the time, motivation and tiredness in the moment.</p>
     <br>
     
-    <p>This project aims to explore a little bit the results of the recent years elections. We have used the last 5 years of information for all the municipalities.
-      Although the data is fine, there was the need to include a new column about to which main party in Spanish/Catalan government all the little municipal parties are related to. 
-      This is due to, in the municipalities, usually the main parties have a party there, but in some towns, the name is not a clear relation.
+    <h2>Pictures?</h2>
+    
+
+    <p>First rellevant thing is to compare motivation vs tiredness to answer the question if tiredness played an important role.</p>
+
+    <div class="radials">
+      <div class="rad-chart1">
+        <h3>Tiredness</h3> 
+        <RadarT></RadarT> 
+      </div>
+      <div class="rad-chart2">
+        <h3>Motivation</h3> 
+        <RadarM></RadarM>
+      </div>
+    </div>
+
+    <p>While the day I was tired the most was Thursday, the one I was most motivated was Sunday, duh... are we surprised was on the weekend?! 😜</p>
+    <p>It seems that tiredness HAS an impact. Antoher example is Wednesday, tiredness is low and motivation is high (yet). And others days but Sunday and Wednesday, are more or less at same rate.
+      One curious things is that you can follow my week starting well on Monday, then decreasing in motivation, and recovering it on the weekend. 
     </p>
- 
-    <RadarM></RadarM>
-
-    <h2>Exploration</h2>
+    <p>And we can conclude that <span class="highlighted">Thursday</span> is the <span class="highlighted">worst day</span>  of my weeks, deal with that Mondays!</p>
     
-    
- 
-    <p>With that said, let’s progress to discuss the data. </p>
-    <p>First, in the chart below, there’s an evolution for the last 5 years of elections for each party. The exploration is done using the general names, rather than all the municipal parties.</p>
-    <p>Let’s consider this 4 groups for the parties:</p>
-
-      <dl>
-        <dt><b>Right:</b> VOX, Ciutadans, PP</dt>
-        <dt><b>Moderate right:</b> JxCat, CIU</dt>
-        <dt><b>Moderate left:</b> ERC, PSC, PACMA</dt>
-        <dt><b>Left:</b> CUP, Podem</dt>
-      </dl>
-
-
-
-    <p>From this graph, we can conclude that in the vast majority of Catalonia, people vote more for left-wing parties. However, the correct matches have increased a bit.</p>
-    <p>If we take a look at the evolution of each match, the graph is as follows.</p>
-    
-  
-
-
-    <p>From this graph, we can conclude that in the vast majority of Catalonia, people vote more for left-wing parties. However, the correct matches have increased a bit.</p>
-    <p>If we take a look at the evolution of each match, the graph is as follows.</p>
-    
-  
-
-
-    <p>Finally, but not least, there is a notable increase in <span class="highlighted">JxCat</span> and <span class="highlighted">ERC</span>, although one moderate left and the other moderate right, they are, along with the <span class="highlighted">CUP</span>, the three parties that defend the independence of Catalonia.
-       Last year all three together got 43% of the total votes.</p>
-    <p>We can better see the gains and losses of councilors between 2015 and 2019.</p>
-
-    <p>After the exploratory analysis, below you’ll find a map that provides a deeper inside in the municipality's results.</p>
     <br>
-    <p>The 2015 and 2019 results can be explored in more detail. There are stories that are easily seen in the face of the drastic increase (ERC/JxCAT) or decrease (PP/CUP) of votes.
-      For cases like the PSC where the increase is more general, winning votes distributed among many municipalities, it allows us to see in more detail which these municipalities are.
+    <p>At some point I started adding the type of book I was reading. In the presentation of the project I wanted to know to know if I have a tendency in a particular kind of book.
+      But first, let's take a glimpse on the kind per day.
     </p>
 
-    <h2>Stats Analysis</h2>
-    
-    <p>Preliminary analysis of the stats was done using R and Observable</p>
-    <a href="https://observablehq.com/d/7eb01f000c28ad2e">Observable notebook</a><br>
-    <a href="https://rpubs.com/josephricafort/catalunyaelections">R stats</a>
-    <br>
-    <p>Finally, we want to thank Anton Bardera and Matt Osborn for their help with the development of this project </p>
+    <div class="bee">
+      <br>
 
-  
-    <p>Finally, but not least, there is a notable increase in <span class="highlighted">JxCat</span> and <span class="highlighted">ERC</span>, although one moderate left and the other moderate right, they are, along with the <span class="highlighted">CUP</span>, the three parties that defend the independence of Catalonia.
-       Last year all three together got 43% of the total votes.</p>
-    <p>We can better see the gains and losses of councilors between 2015 and 2019.</p>
+    <MyBeeswarmForce></MyBeeswarmForce>
+
+    <br>
+    </div>
+    
+
+    <p>We can already see that the color showing the most is green, which represents essay. And if we check the number of pages we can confirm <span class="highlighted">Essay</span> is the type I read the <span class="highlighted">most</span></p>
+
+    <MyCricle></MyCricle>
+    <br>
+    <p>To finish with the stats, here is the timeline of the pages read during these 60 days.</p>
+    <MyChart></MyChart>
+
+    <h2>Will I achieve my goal?</h2>
+    
+
  
 
-  
-
-  
- 
-    <h2>Stats Analysis</h2>
-    
-    <p>Preliminary analysis of the stats was done using R and Observable</p>
-    <a href="https://observablehq.com/d/7eb01f000c28ad2e">Observable notebook</a><br>
-    <a href="https://rpubs.com/josephricafort/catalunyaelections">R stats</a>
-    <br>
-    <p>Finally, we want to thank Anton Bardera and Matt Osborn for their help with the development of this project </p>
 </main>
 
 <style>
@@ -108,6 +85,18 @@
     
     width: 100%;
   }
+  .rad-chart1 {
+    width: 50%;
+  }
+  .rad-chart2 {
+    width: 50%;
+  }
+  .radials {
+    width: 100%;
+  }
+  /* .bee {
+    background-color: white;
+  } */
  /*  :global(.layercake-container line)
   {
     border-left: 1px dotted goldenrod;

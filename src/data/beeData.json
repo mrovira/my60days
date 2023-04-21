@@ -1,0 +1,322 @@
+[
+    {
+      "book": "harry potter",
+      "day": 1,
+      "Type": "Art/Cinema"
+    },
+    {
+      "book": "harry potter",
+      "day": 2,
+      "Type": "Art/Cinema"
+    },
+    {
+      "book": "none",
+      "day": 3,
+      "Type": "none"
+    },
+    {
+      "book": "la rialla roja",
+      "day": 4,
+      "Type": "Fiction"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 5,
+      "Type": "Essay"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 6,
+      "Type": "Essay"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 7,
+      "Type": "Essay"
+    },
+    {
+      "book": "harry potter",
+      "day": 7,
+      "Type": "Art/Cinema"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 8,
+      "Type": "Essay"
+    },
+    {
+      "book": "la rialla roja",
+      "day": 9,
+      "Type": "Fiction"
+    },
+    {
+      "book": "la rialla roja",
+      "day": 10,
+      "Type": "Fiction"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 11,
+      "Type": "Essay"
+    },
+    {
+      "book": "la rialla roja",
+      "day": 12,
+      "Type": "Fiction"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 13,
+      "Type": "Essay"
+    },
+    {
+      "book": "la rialla roja",
+      "day": 13,
+      "Type": "Fiction"
+    },
+    {
+      "book": "la rialla roja",
+      "day": 14,
+      "Type": "Fiction"
+    },
+    {
+      "book": "Hogwarts legacy",
+      "day": 15,
+      "Type": "Videogame"
+    },
+    {
+      "book": "Hogwarts legacy",
+      "day": 16,
+      "Type": "Videogame"
+    },
+    {
+      "book": "Hogwarts legacy",
+      "day": 16,
+      "Type": "Videogame"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 17,
+      "Type": "Essay"
+    },
+    {
+      "book": "harry potter",
+      "day": 18,
+      "Type": "Art/Cinema"
+    },
+    {
+      "book": "la rialla roja",
+      "day": 19,
+      "Type": "Fiction"
+    },
+    {
+      "book": "Hogwarts legacy",
+      "day": 20,
+      "Type": "Videogame"
+    },
+    {
+      "book": "la rialla roja",
+      "day": 21,
+      "Type": "Fiction"
+    },
+    {
+      "book": "la rialla roja",
+      "day": 22,
+      "Type": "Fiction"
+    },
+    {
+      "book": "la rialla roja",
+      "day": 23,
+      "Type": "Fiction"
+    },
+    {
+      "book": "none",
+      "day": 24,
+      "Type": "none"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 25,
+      "Type": "Essay"
+    },
+    {
+      "book": "la balada del café trist",
+      "day": 26,
+      "Type": "Fiction"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 27,
+      "Type": "Essay"
+    },
+    {
+      "book": "la balada del café trist",
+      "day": 28,
+      "Type": "Fiction"
+    },
+    {
+      "book": "none",
+      "day": 29,
+      "Type": "none"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 30,
+      "Type": "Essay"
+    },
+    {
+      "book": "none",
+      "day": 31,
+      "Type": "none"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 32,
+      "Type": "Essay"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 33,
+      "Type": "Essay"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 34,
+      "Type": "Essay"
+    },
+    {
+      "book": "harry potter",
+      "day": 35,
+      "Type": "Art/Cinema"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 36,
+      "Type": "Essay"
+    },
+    {
+      "book": "none",
+      "day": 37,
+      "Type": "none"
+    },
+    {
+      "book": "harry potter",
+      "day": 38,
+      "Type": "Art/Cinema"
+    },
+    {
+      "book": "la balada del café trist",
+      "day": 39,
+      "Type": "Fiction"
+    },
+    {
+      "book": "none",
+      "day": 40,
+      "Type": "none"
+    },
+    {
+      "book": "none",
+      "day": 41,
+      "Type": "none"
+    },
+    {
+      "book": "la balada del café trist",
+      "day": 42,
+      "Type": "Fiction"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 43,
+      "Type": "Essay"
+    },
+    {
+      "book": "la balada del café trist",
+      "day": 44,
+      "Type": "Fiction"
+    },
+    {
+      "book": "la balada del café trist",
+      "day": 45,
+      "Type": "Fiction"
+    },
+    {
+      "book": "none",
+      "day": 46,
+      "Type": "none"
+    },
+    {
+      "book": "none",
+      "day": 47,
+      "Type": "none"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 48,
+      "Type": "Essay"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 49,
+      "Type": "Essay"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 50,
+      "Type": "Essay"
+    },
+    {
+      "book": "la balada del café trist",
+      "day": 51,
+      "Type": "Fiction"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 52,
+      "Type": "Essay"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 52,
+      "Type": "Essay"
+    },
+    {
+      "book": "la balada del café trist",
+      "day": 53,
+      "Type": "Fiction"
+    },
+    {
+      "book": "la balada del café trist",
+      "day": 54,
+      "Type": "Fiction"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 55,
+      "Type": "Essay"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 56,
+      "Type": "Essay"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 57,
+      "Type": "Essay"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 58,
+      "Type": "Essay"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 59,
+      "Type": "Essay"
+    },
+    {
+      "book": "caliban i la bruixa",
+      "day": 60,
+      "Type": "Essay"
+    }
+  ]
