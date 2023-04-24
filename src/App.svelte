@@ -199,10 +199,6 @@
     font-size: 1.4rem;
     color: goldenrod;
   }
-  .bar-chart {
-    
-    width: 100%;
-  }
   .rad-chart1 {
     width: 400;
   }
@@ -266,16 +262,10 @@
     fill:white;
     text-shadow:unset!important;
   }
-  section {
-    padding: 10px;
-    margin: 10px;
-    color: white;
-  }
   :root 
   {
     color:white;
   }
-  section,
   header {
     max-width: 700px;
     margin: 0 auto;

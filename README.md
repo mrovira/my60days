@@ -5,6 +5,13 @@ This project is part of the creative subject in the MTVEC.
 We were asked to track something in our lives during 60 days.
 Mine was focused on my reading habits.
 
+
+## Setup
+
+npm i
+npm run dev
+
+
 ## Interesting URLs
 
 [Github](https://github.com/mrovira/my60days) + [Web] (https://my60daysreading-mrovira.vercel.app/).
