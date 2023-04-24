@@ -117,11 +117,11 @@
     <p>First rellevant thing is to compare motivation vs tiredness to answer the question if tiredness played an important role.</p>
 
     <div class="radials">
-      <div class="rad-chart1">
+      <div class="rad-chart1" >
         <h3>Tiredness</h3> 
         <RadarT></RadarT> 
       </div>
-      <div class="rad-chart2">
+      <div class="rad-chart2" >
         <h3>Motivation</h3> 
         <RadarM></RadarM>
       </div>
@@ -200,10 +200,10 @@
     width: 100%;
   }
   .rad-chart1 {
-    width: 50%;
+    width: 400;
   }
   .rad-chart2 {
-    width: 50%;
+    width: 400;
   }
   .radials {
     width: 100%;

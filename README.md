@@ -1,47 +1,27 @@
-# Svelte + Vite
+# MVTEC - Creative module project
 
-This template should help get you started developing with Svelte in Vite.
+This project is part of the creative subject in the MTVEC. 
 
-## Recommended IDE Setup
+We were asked to track something in our lives during 60 days.
+Mine was focused on my reading habits.
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+## Interesting URLs
 
-## Need an official Svelte framework?
+[Github](https://github.com/mrovira/my60days) + [Web] (https://my60daysreading-mrovira.vercel.app/).
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+## Comments
 
-## Technical considerations
+I have used layer-cake for all the visualizations, github, svelte and vercel to deploy the project.
 
-**Why use this over SvelteKit?**
+# Lessons learned
+- How to use layer cake
+- I have to increase the reading progress to achieve my personal goal for 2023
+- How to use Figma
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+# Pending things
+- Improve the picture section as right now is a table. I would like it to have zoom applied to check better the progress every day
+- Have the 2 radial charts in the same chart. As they were done with layer-cake, I couldn't adapt two in one.
+- One chart with the time spent reading every day.
 
-This template contains as little as possible to get started with Vite + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
 
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
-
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
-
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
-
-**Why include `.vscode/extensions.json`?**
-
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
-
-**Why enable `checkJs` in the JS template?**
-
-It is likely that most cases of changing variable types in runtime are likely to be accidental, rather than deliberate. This provides advanced typechecking out of the box. Should you like to take advantage of the dynamically-typed nature of JavaScript, it is trivial to change the configuration.
-
-**Why is HMR not preserving my local component state?**
-
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/rixo/svelte-hmr#svelte-hmr).
-
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
-
-```js
-// store.js
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
-```
+Special thanks to Xaquín G.V. for his patience in me delivering the project.
