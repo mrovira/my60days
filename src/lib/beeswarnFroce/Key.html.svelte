@@ -37,14 +37,14 @@
       
     }
     .key-item {
-      margin-right: 14px;
+      margin-right: 30px;
       
     }
     .chip {
       display: inline-block;
       position: relative;
-      width: 12px;
-      height: 12px;
+      width: 18px;
+      height: 18px;
       
     }
     .chip__circle {
@@ -53,15 +53,15 @@
     .chip__line:after {
       content: '';
       position: absolute;
-      border-width: 3px;
-      width: 14px;
+      border-width: 13px;
+      width: 16px;
       transform: rotate(-45deg);
       transform-origin: 14px 5px;
-      color: #000000;
+      color: #ffffff;
     }
     .name {
       display: inline;
-      font-size: 16px;
+      font-size: 25px;
       text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
     }
   </style>

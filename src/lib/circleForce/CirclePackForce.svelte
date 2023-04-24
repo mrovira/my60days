@@ -15,7 +15,7 @@
     const { data, width, height, xScale, xGet, rGet, zGet } = getContext('LayerCake');
   
     /** @type {Number} [manyBodyStrength=5] - The value passed into the `.strength` method on `forceManyBody`, which is used as the `'charge'` property on the simulation. See [the documentation](https://github.com/d3/d3-force#manyBody_strength) for more. */
-    export let manyBodyStrength = 5;
+    export let manyBodyStrength = 3;
   
     /** @type {Number} [xStrength=0.1] - The value passed into the `.strength` method on `forceX`, which is used as the `'x'` property on the simulation. See [the documentation](https://github.com/d3/d3-force#x_strength) for more. */
     export let xStrength = 0.1;

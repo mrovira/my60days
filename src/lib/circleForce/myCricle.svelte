@@ -14,7 +14,7 @@
 
     const seriesColors = ['#ccc', '#000', '#3C787E', '#726DA8'];
 
-    let manyBodyStrength = 3;
+    let manyBodyStrength = 5;
     let xStrength = 0.1
 </script>
 
@@ -33,7 +33,7 @@
     cursor: pointer;
     }
     input {
-    margin-right: 7px;
+    margin-right: 10px;
     }
 </style>
 
@@ -49,7 +49,7 @@
     r={rKey}
     z={zKey}
     xScale={scaleBand()}
-    rRange={[3, 12]}
+    rRange={[3, 18]}
     zScale={scaleOrdinal()}
     zRange={seriesColors}
     >

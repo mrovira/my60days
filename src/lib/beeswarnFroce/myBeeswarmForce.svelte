@@ -14,7 +14,7 @@
     const zKey = 'Type';
     const titleKey = 'book';
 
-    const r = 8;
+    const r = 9;
   
     const seriesColors = ['#ccc', '#fc0', '#000', '#3C787E', '#726DA8'];
   

@@ -11,8 +11,60 @@
   import MyCricle from './lib/circleForce/myCricle.svelte';
   //import dataRadar from '../../data/radar.json';
 
-  //import image from ".../public/images"
-  
+  // import image1 from "../public/images/001.jpeg";
+  // import image2 from "../public/images/002.jpeg";
+  // import image4 from "../public/images/004.jpeg";
+  // import image5 from "../public/images/005.jpg";
+  // import image6 from "../public/images/006.jpg";
+  // import image71 from "../public/images/007.1.jpg";
+  // import image72 from "../public/images/007.2.jpeg";
+  // import image8 from "../public/images/008.jpg";
+  // import image9 from "../public/images/009.jpeg";
+  // import image10 from "../public/images/010.jpeg";
+  // import image11 from "../public/images/011.jpg";
+  // import image12 from "../public/images/012.jpeg";
+  // import image131 from "../public/images/013.1.jpeg";
+  // import image132 from "../public/images/013.2.jpg";
+  // import image14 from "../public/images/014.jpeg";
+  // import image15 from "../public/images/015.jpeg";
+  // import image16 from "../public/images/016.jpeg";
+  // import image17 from "../public/images/017.jpg";
+  // import image18 from "../public/images/018.jpeg";
+  // import image19 from "../public/images/019.jpeg";
+  // import image20 from "../public/images/020.jpeg";
+  // import image21 from "../public/images/021.jpeg";
+  // import image22 from "../public/images/022.jpeg";
+  // import image23 from "../public/images/023.jpeg";
+  // import image25 from "../public/images/025.jpg";
+  // import image26 from "../public/images/026.jpg";
+  // import image27 from "../public/images/027.jpg";
+  // import image28 from "../public/images/028.jpg";
+  // import image30 from "../public/images//030.jpg";
+  // import image32 from "../public/images/032.jpg";
+  // import image33 from "../public/images/033.jpg";
+  // import image34 from "../public/images/034.jpg";
+  // import image35 from "../public/images/035.jpeg";
+  // import image36 from "../public/images/036.jpg";
+  // import image38 from "../public/images/038.jpeg";
+  // import image39 from "../public/images/039.jpg";
+  // import image42 from "../public/images/042.jpg";
+  // import image43 from "../public/images/043.jpg";
+  // import image44 from "../public/images/044.jpg";
+  // import image45 from "../public/images/045.jpg";
+  // import image48 from "../public/images/048.jpg";
+  // import image49 from "../public/images/049.jpg";
+  // import image50 from "../public/images/050.jpg";
+  // import image51 from "../public/images/051.jpg";
+  // import image52 from "../public/images/052.jpg";
+  // import image53 from "../public/images/053.jpg";
+  // import image54 from "../public/images/054.jpg";
+  // import image55 from "../public/images/055.jpg";
+  // import image56 from "../public/images/055.jpg";
+  // import image57 from "../public/images/057.jpg";
+  // import image58 from "../public/images/058.jpg";
+  // import image59 from "../public/images/059.jpg";
+  // import image60 from "../public/images/060.jpg";
+
   let w;
   
 //   let table = document.querySelector('table');
@@ -39,82 +91,84 @@
     <p>This project aims to explore a little bit my reading habits within 60 days to check if I will achieve my goal in Goodreads of 18 book read this year 2023. For that, din these 60 days, I have tracked my progress reading, including the number of pages, the time, motivation and tiredness in the moment.</p>
     <br>
     
-    <h2>Pictures?</h2>
+    <h2>Pictures</h2>
     
+    <p>For those 60 days, I took a picture of the book I was reading that day and the page where I left it.</p>
+
     <table class="taula-imatges">
       <tr >
-        <td><img src="../static/images/001.jpeg" alt="1" width="400" height="50"></td>
-        <td><img src="../static/images/002.jpeg" alt="2" width="400" height="50"></td>
+        <td><img src="images/001.jpeg" alt="1" width="400" height="50"></td>
+        <td><img src="images/002.jpeg" alt="2" width="400" height="50"></td>
         <td></td>
-        <td><img src="../static/images/004.jpeg" alt="4" width="400" height="50"></td>
-        <td><img src="../static/images/005.jpg" alt="5" width="400" height="50"></td>
-        <td><img src="../static/images/006.jpg" alt="6" width="400" height="50"></td>
-        <td><img src="../static/images/007.1.jpg" alt="7" width="200" height="50">
-          <img src="../static/images/007.2.jpeg" alt="7.2" width="200" height="50"></td>
-        <td><img src="../static/images/008.jpg" alt="8" width="400" height="50"></td>
-        <td><img src="../static/images/009.jpeg" alt="9" width="400" height="50"></td>
-        <td><img src="../static/images/010.jpeg" alt="10" width="400" height="50"></td>
+        <td><img src="images/004.jpeg" alt="4" width="400" height="50"></td>
+        <td><img src="images/005.jpg" alt="5" width="400" height="50"></td>
+        <td><img src="images/006.jpg" alt="6" width="400" height="50"></td>
+        <td><img src="images/007.1.jpg" alt="7" width="200" height="50">
+          <img src="images/007.2.jpeg" alt="7.2" width="200" height="50"></td>
+        <td><img src="images/008.jpg" alt="8" width="400" height="50"></td>
+        <td><img src="images/009.jpeg" alt="9" width="400" height="50"></td>
+        <td><img src="images/010.jpeg" alt="10" width="400" height="50"></td>
       </tr>
       <tr>
-        <td><img src="../public/images/011.jpg" alt="11" width="400" height="50"></td>
-        <td><img src="../public/images/012.jpeg" alt="12" width="400" height="50"></td>
-        <td><img src="../public/images/013.1.jpeg" alt="13" width="200" height="50">
-          <img src="../public/images/013.2.jpg" alt="13.2" width="200" height="50"></td>
-        <td><img src="../public/images/014.jpeg" alt="14" width="400" height="50"></td>
-        <td><img src="../public/images/015.jpeg" alt="15" width="400" height="50"></td>
-        <td><img src="../public/images/016.jpeg" alt="16" width="400" height="50"></td>
-        <td><img src="../public/images/017.jpg" alt="17" width="400" height="50"></td>
-        <td><img src="../public/images/018.jpeg" alt="18" width="400" height="50"></td>
-        <td><img src="../public/images/019.jpeg" alt="19" width="400" height="50"></td>
-        <td><img src="../public/images/020.jpeg" alt="20" width="400" height="50"></td>
+        <td><img src="images/011.jpg" alt="11" width="400" height="50"></td>
+        <td><img src="images/012.jpeg" alt="12" width="400" height="50"></td>
+        <td><img src="images/013.1.jpeg" alt="13" width="200" height="50">
+          <img src="images/013.2.jpg" alt="13.2" width="200" height="50"></td>
+        <td><img src="images/014.jpeg" alt="14" width="400" height="50"></td>
+        <td><img src="images/015.jpeg" alt="15" width="400" height="50"></td>
+        <td><img src="images/016.jpeg" alt="16" width="400" height="50"></td>
+        <td><img src="images/017.jpg" alt="17" width="400" height="50"></td>
+        <td><img src="images/018.jpeg" alt="18" width="400" height="50"></td>
+        <td><img src="images/019.jpeg" alt="19" width="400" height="50"></td>
+        <td><img src="images/020.jpeg" alt="20" width="400" height="50"></td>
       </tr>
       <tr>
-        <td><img src="../public/images/021.jpeg" alt="21" width="400" height="50"></td>
-        <td><img src="../public/images/022.jpeg" alt="22" width="400" height="50"></td>
-        <td><img src="../public/images/023.jpeg" alt="23" width="400" height="50"></td>
+        <td><img src="images/021.jpeg" alt="21" width="400" height="50"></td>
+        <td><img src="images/022.jpeg" alt="22" width="400" height="50"></td>
+        <td><img src="images/023.jpeg" alt="23" width="400" height="50"></td>
         <td></td>
-        <td><img src="../public/images/025.jpg" alt="25" width="400" height="50"></td>
-        <td><img src="../public/images/026.jpg" alt="26" width="400" height="50"></td>
-        <td><img src="../public/images/027.jpg" alt="27" width="400" height="50"></td>
-        <td><img src="../public/images/028.jpg" alt="28" width="400" height="50"></td>
+        <td><img src="images/025.jpg" alt="25" width="400" height="50"></td>
+        <td><img src="images/026.jpg" alt="26" width="400" height="50"></td>
+        <td><img src="images/027.jpg" alt="27" width="400" height="50"></td>
+        <td><img src="images/028.jpg" alt="28" width="400" height="50"></td>
         <td></td>
-        <td><img src="../public/images/030.jpg" alt="30" width="400" height="50"></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td><img src="../public/images/032.jpg" alt="32" width="400" height="50"></td>
-        <td><img src="../public/images/033.jpg" alt="33" width="400" height="50"></td>
-        <td><img src="../public/images/034.jpg" alt="34" width="400" height="50"></td>
-        <td><img src="../public/images/035.jpeg" alt="35" width="400" height="50"></td>
-        <td><img src="../public/images/036.jpg" alt="36" width="400" height="50"></td>
-        <td></td>
-        <td><img src="../public/images/038.jpeg" alt="38" width="400" height="50"></td>
-        <td><img src="../public/images/039.jpg" alt="39" width="400" height="50"></td>
-        <td></td>
+        <td><img src="images/030.jpg" alt="30" width="400" height="50"></td>
       </tr>
       <tr>
         <td></td>
-        <td><img src="../public/images/042.jpg" alt="42" width="400" height="50"></td>
-        <td><img src="../public/images/043.jpg" alt="43" width="400" height="50"></td>
-        <td><img src="../public/images/044.jpg" alt="44" width="400" height="50"></td>
-        <td><img src="../public/images/045.jpg" alt="45" width="400" height="50"></td>
+        <td><img src="images/032.jpg" alt="32" width="400" height="50"></td>
+        <td><img src="images/033.jpg" alt="33" width="400" height="50"></td>
+        <td><img src="images/034.jpg" alt="34" width="400" height="50"></td>
+        <td><img src="images/035.jpeg" alt="35" width="400" height="50"></td>
+        <td><img src="images/036.jpg" alt="36" width="400" height="50"></td>
         <td></td>
+        <td><img src="images/038.jpeg" alt="38" width="400" height="50"></td>
+        <td><img src="images/039.jpg" alt="39" width="400" height="50"></td>
         <td></td>
-        <td><img src="../public/images/048.jpg" alt="48" width="400" height="50"></td>
-        <td><img src="../public/images/049.jpg" alt="49" width="400" height="50"></td>
-        <td><img src="../public/images/050.jpg" alt="50" width="400" height="50"></td>
       </tr>
       <tr>
-        <td><img src="../public/images/051.jpg" alt="51" width="400" height="50"></td>
-        <td><img src="../public/images/052.jpg" alt="52" width="400" height="50"></td>
-        <td><img src="../public/images/053.jpg" alt="53" width="400" height="50"></td>
-        <td><img src="../public/images/054.jpg" alt="54" width="400" height="50"></td>
-        <td><img src="../public/images/055.jpg" alt="55" width="400" height="50"></td>
-        <td><img src="../public/images/055.jpg" alt="56" width="400" height="50"></td>
-        <td><img src="../public/images/057.jpg" alt="57" width="400" height="50"></td>
-        <td><img src="../public/images/058.jpg" alt="58" width="400" height="50"></td>
-        <td><img src="../public/images/059.jpg" alt="59" width="400" height="50"></td>
-        <td><img src="../public/images/060.jpg" alt="60" width="400" height="50"></td>
+        <td></td>
+        <td><img src="images/042.jpg" alt="42" width="400" height="50"></td>
+        <td><img src="images/043.jpg" alt="43" width="400" height="50"></td>
+        <td><img src="images/044.jpg" alt="44" width="400" height="50"></td>
+        <td><img src="images/045.jpg" alt="45" width="400" height="50"></td>
+        <td></td>
+        <td></td>
+        <td><img src="images/048.jpg" alt="48" width="400" height="50"></td>
+        <td><img src="images/049.jpg" alt="49" width="400" height="50"></td>
+        <td><img src="images/050.jpg" alt="50" width="400" height="50"></td>
+      </tr>
+      <tr>
+        <td><img src="images/051.jpg" alt="51" width="400" height="50"></td>
+        <td><img src="images/052.jpg" alt="52" width="400" height="50"></td>
+        <td><img src="images/053.jpg" alt="53" width="400" height="50"></td>
+        <td><img src="images/054.jpg" alt="54" width="400" height="50"></td>
+        <td><img src="images/055.jpg" alt="55" width="400" height="50"></td>
+        <td><img src="images/055.jpg" alt="56" width="400" height="50"></td>
+        <td><img src="images/057.jpg" alt="57" width="400" height="50"></td>
+        <td><img src="images/058.jpg" alt="58" width="400" height="50"></td>
+        <td><img src="images/059.jpg" alt="59" width="400" height="50"></td>
+        <td><img src="images/060.jpg" alt="60" width="400" height="50"></td>
       </tr>
     </table>
     
@@ -189,7 +243,7 @@
         <td class="taula-1">Can it be achieve?</td>
       </tr>
       <tr>
-        <td class="taula-2"><span class="highlighted">There's still a chance, but I need to increase the rythm</span></td>
+        <td class="taula-21">There's still a chance, but I need to increase the rythm</td>
       </tr>
     </table>
  
@@ -200,7 +254,12 @@
   .highlighted 
   {
     font-size: 1.4rem;
-    color: goldenrod;
+    color: #F4A03F;
+  }
+  .taula-21
+  {
+    color: #F4A03F;
+    text-align: right;
   }
   .rad-chart1 {
     width: 400;
@@ -280,6 +339,7 @@
   :global(body) 
   {
     
+    /* background: #74b1f7; */
     background: #3F93F4;
   }
   :global(.maplibregl-popup-content) 
