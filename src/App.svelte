@@ -114,6 +114,8 @@
         <td><img src="src\images\060.jpg" alt="60" width="400" height="50"></td>
       </tr>
     </table>
+    
+    <br>
     <p>First rellevant thing is to compare motivation vs tiredness to answer the question if tiredness played an important role.</p>
 
     <div class="radials">
