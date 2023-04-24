@@ -43,17 +43,17 @@
     
     <table class="taula-imatges">
       <tr >
-        <td><img src="../public/images/001.jpeg" alt="1" width="400" height="50"></td>
-        <td><img src="../public/images/002.jpeg" alt="2" width="400" height="50"></td>
+        <td><img src="../static/images/001.jpeg" alt="1" width="400" height="50"></td>
+        <td><img src="../static/images/002.jpeg" alt="2" width="400" height="50"></td>
         <td></td>
-        <td><img src="../public/images/004.jpeg" alt="4" width="400" height="50"></td>
-        <td><img src="../public/images/005.jpg" alt="5" width="400" height="50"></td>
-        <td><img src="../public/images/006.jpg" alt="6" width="400" height="50"></td>
-        <td><img src="../public/images/007.1.jpg" alt="7" width="200" height="50">
-          <img src="../public/images/007.2.jpeg" alt="7.2" width="200" height="50"></td>
-        <td><img src="../public/images/008.jpg" alt="8" width="400" height="50"></td>
-        <td><img src="../public/images/009.jpeg" alt="9" width="400" height="50"></td>
-        <td><img src="../public/images/010.jpeg" alt="10" width="400" height="50"></td>
+        <td><img src="../static/images/004.jpeg" alt="4" width="400" height="50"></td>
+        <td><img src="../static/images/005.jpg" alt="5" width="400" height="50"></td>
+        <td><img src="../static/images/006.jpg" alt="6" width="400" height="50"></td>
+        <td><img src="../static/images/007.1.jpg" alt="7" width="200" height="50">
+          <img src="../static/images/007.2.jpeg" alt="7.2" width="200" height="50"></td>
+        <td><img src="../static/images/008.jpg" alt="8" width="400" height="50"></td>
+        <td><img src="../static/images/009.jpeg" alt="9" width="400" height="50"></td>
+        <td><img src="../static/images/010.jpeg" alt="10" width="400" height="50"></td>
       </tr>
       <tr>
         <td><img src="../public/images/011.jpg" alt="11" width="400" height="50"></td>
