@@ -22,7 +22,7 @@
       });
     });
 
-    console.log(seriesNames)
+    //console.log(seriesNames)
   </script>
   
   <style>

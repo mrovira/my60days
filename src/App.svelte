@@ -156,6 +156,8 @@
     <p>To finish with the stats, here is the timeline of the pages read during these 60 days.</p>
     <MyChart></MyChart>
 
+    <br>
+    <br>
     <h2>Will I achieve my goal?</h2>
     
     <table class="taula">
@@ -163,22 +165,22 @@
         <td class="taula-1">Previous</td>
       </tr>
       <tr>
-        <td class="taula-2">Total pages 2022: 4000 <sub class="taula-3">11 p/d</sub></td>
-        <td class="taula-2"> Total books 2022: 12</td>
+        <td class="taula-2">Total pages 2022: <b>4000</b> <sub class="taula-3">11 p/d</sub></td>
+        <td class="taula-2"> Total books 2022: <b>12</b></td>
       </tr>
       <tr>
         <td class="taula-1">Actual</td>
       </tr>
       <tr>
-        <td class="taula-2">Total pages 2023: 398 <sub class="taula-3">6 p/d</sub></td>
-        <td class="taula-2"> Current books 2023: 3</td>
+        <td class="taula-2">Total pages 2023: <b>398</b> <sub class="taula-3">6 p/d</sub></td>
+        <td class="taula-2"> Current books 2023: <b>3</b></td>
       </tr>
       <tr>
         <td class="taula-1">Expectations</td>
       </tr>
       <tr>
-        <td class="taula-2">Expected pages 2023: 6000 </td>
-        <td class="taula-2">Expected books 2023: 18</td>
+        <td class="taula-2">Expected pages 2023: <b>6000</b> </td>
+        <td class="taula-2">Expected books 2023: <b>18</b></td>
       </tr>
       <tr>
         <td class="taula-1">Can it be achieve?</td>
@@ -224,6 +226,7 @@
   .taula {
     margin-left: auto;
     margin-right: auto;
+    font-size: 25px;
   }
   td {
     padding-top: 10px;
