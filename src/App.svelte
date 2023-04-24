@@ -11,8 +11,8 @@
   import MyCricle from './lib/circleForce/myCricle.svelte';
   //import dataRadar from '../../data/radar.json';
 
-  //import * from './images/';
-
+  //import image from ".../public/images"
+  
   let w;
   
 //   let table = document.querySelector('table');
@@ -43,78 +43,78 @@
     
     <table class="taula-imatges">
       <tr >
-        <td><img src="./public/images/001.jpeg" alt="1" width="400" height="50"></td>
-        <td><img src="./public/images/002.jpeg" alt="2" width="400" height="50"></td>
-        <td><img src="./public/images/003.jpeg" alt="3" width="400" height="50"></td>
-        <td><img src="./public/images/004.jpeg" alt="4" width="400" height="50"></td>
-        <td><img src="./public/images/005.jpg" alt="5" width="400" height="50"></td>
-        <td><img src="./public/images/006.jpg" alt="6" width="400" height="50"></td>
-        <td><img src="./public/images/007.1.jpg" alt="7" width="200" height="50">
-          <img src="./public/images/007.2.jpeg" alt="7.2" width="200" height="50"></td>
-        <td><img src="./public/images/008.jpg" alt="8" width="400" height="50"></td>
-        <td><img src="./public/images/009.jpeg" alt="9" width="400" height="50"></td>
-        <td><img src="./public/images/010.jpeg" alt="10" width="400" height="50"></td>
+        <td><img src="../public/images/001.jpeg" alt="1" width="400" height="50"></td>
+        <td><img src="../public/images/002.jpeg" alt="2" width="400" height="50"></td>
+        <td></td>
+        <td><img src="../public/images/004.jpeg" alt="4" width="400" height="50"></td>
+        <td><img src="../public/images/005.jpg" alt="5" width="400" height="50"></td>
+        <td><img src="../public/images/006.jpg" alt="6" width="400" height="50"></td>
+        <td><img src="../public/images/007.1.jpg" alt="7" width="200" height="50">
+          <img src="../public/images/007.2.jpeg" alt="7.2" width="200" height="50"></td>
+        <td><img src="../public/images/008.jpg" alt="8" width="400" height="50"></td>
+        <td><img src="../public/images/009.jpeg" alt="9" width="400" height="50"></td>
+        <td><img src="../public/images/010.jpeg" alt="10" width="400" height="50"></td>
       </tr>
       <tr>
-        <td><img src="./public/images/011.jpg" alt="11" width="400" height="50"></td>
-        <td><img src="./public/images/012.jpeg" alt="12" width="400" height="50"></td>
-        <td><img src="./public/images/013.1.jpeg" alt="13" width="200" height="50">
-          <img src="./public/images/013.2.jpg" alt="13.2" width="200" height="50"></td>
-        <td><img src="./public/images/014.jpeg" alt="14" width="400" height="50"></td>
-        <td><img src="./public/images/015.jpeg" alt="15" width="400" height="50"></td>
-        <td><img src="./public/images/016.jpeg" alt="16" width="400" height="50"></td>
-        <td><img src="./public/images/017.jpg" alt="17" width="400" height="50"></td>
-        <td><img src="./public/images/018.jpeg" alt="18" width="400" height="50"></td>
-        <td><img src="./public/images/019.jpeg" alt="19" width="400" height="50"></td>
-        <td><img src="./public/images/020.jpeg" alt="20" width="400" height="50"></td>
+        <td><img src="../public/images/011.jpg" alt="11" width="400" height="50"></td>
+        <td><img src="../public/images/012.jpeg" alt="12" width="400" height="50"></td>
+        <td><img src="../public/images/013.1.jpeg" alt="13" width="200" height="50">
+          <img src="../public/images/013.2.jpg" alt="13.2" width="200" height="50"></td>
+        <td><img src="../public/images/014.jpeg" alt="14" width="400" height="50"></td>
+        <td><img src="../public/images/015.jpeg" alt="15" width="400" height="50"></td>
+        <td><img src="../public/images/016.jpeg" alt="16" width="400" height="50"></td>
+        <td><img src="../public/images/017.jpg" alt="17" width="400" height="50"></td>
+        <td><img src="../public/images/018.jpeg" alt="18" width="400" height="50"></td>
+        <td><img src="../public/images/019.jpeg" alt="19" width="400" height="50"></td>
+        <td><img src="../public/images/020.jpeg" alt="20" width="400" height="50"></td>
       </tr>
       <tr>
-        <td><img src="./public/images/021.jpeg" alt="21" width="400" height="50"></td>
-        <td><img src="./public/images/022.jpeg" alt="22" width="400" height="50"></td>
-        <td><img src="./public/images/023.jpeg" alt="23" width="400" height="50"></td>
-        <td><img src="./public/images/024.jpeg" alt="24" width="400" height="50"></td>
-        <td><img src="./public/images/025.jpg" alt="25" width="400" height="50"></td>
-        <td><img src="./public/images/026.jpg" alt="26" width="400" height="50"></td>
-        <td><img src="./public/images/027.jpg" alt="27" width="400" height="50"></td>
-        <td><img src="./public/images/028.jpg" alt="28" width="400" height="50"></td>
-        <td><img src="./public/images/029.jpeg" alt="29" width="400" height="50"></td>
-        <td><img src="./public/images/030.jpg" alt="30" width="400" height="50"></td>
+        <td><img src="../public/images/021.jpeg" alt="21" width="400" height="50"></td>
+        <td><img src="../public/images/022.jpeg" alt="22" width="400" height="50"></td>
+        <td><img src="../public/images/023.jpeg" alt="23" width="400" height="50"></td>
+        <td></td>
+        <td><img src="../public/images/025.jpg" alt="25" width="400" height="50"></td>
+        <td><img src="../public/images/026.jpg" alt="26" width="400" height="50"></td>
+        <td><img src="../public/images/027.jpg" alt="27" width="400" height="50"></td>
+        <td><img src="../public/images/028.jpg" alt="28" width="400" height="50"></td>
+        <td></td>
+        <td><img src="../public/images/030.jpg" alt="30" width="400" height="50"></td>
       </tr>
       <tr>
-        <td><img src="./public/images/031.jpeg" alt="31" width="400" height="50"></td>
-        <td><img src="./public/images/032.jpg" alt="32" width="400" height="50"></td>
-        <td><img src="./public/images/033.jpg" alt="33" width="400" height="50"></td>
-        <td><img src="./public/images/034.jpg" alt="34" width="400" height="50"></td>
-        <td><img src="./public/images/035.jpeg" alt="35" width="400" height="50"></td>
-        <td><img src="./public/images/036.jpg" alt="36" width="400" height="50"></td>
-        <td><img src="./public/images/037.jpeg" alt="37" width="400" height="50"></td>
-        <td><img src="./public/images/038.jpeg" alt="38" width="400" height="50"></td>
-        <td><img src="./public/images/039.jpg" alt="39" width="400" height="50"></td>
-        <td><img src="./public/images/040.jpeg" alt="40" width="400" height="50"></td>
+        <td></td>
+        <td><img src="../public/images/032.jpg" alt="32" width="400" height="50"></td>
+        <td><img src="../public/images/033.jpg" alt="33" width="400" height="50"></td>
+        <td><img src="../public/images/034.jpg" alt="34" width="400" height="50"></td>
+        <td><img src="../public/images/035.jpeg" alt="35" width="400" height="50"></td>
+        <td><img src="../public/images/036.jpg" alt="36" width="400" height="50"></td>
+        <td></td>
+        <td><img src="../public/images/038.jpeg" alt="38" width="400" height="50"></td>
+        <td><img src="../public/images/039.jpg" alt="39" width="400" height="50"></td>
+        <td></td>
       </tr>
       <tr>
-        <td><img src="./public/images/041.jpeg" alt="41" width="400" height="50"></td>
-        <td><img src="./public/images/042.jpg" alt="42" width="400" height="50"></td>
-        <td><img src="./public/images/043.jpg" alt="43" width="400" height="50"></td>
-        <td><img src="./public/images/044.jpg" alt="44" width="400" height="50"></td>
-        <td><img src="./public/images/045.jpg" alt="45" width="400" height="50"></td>
-        <td><img src="./public/images/046.jpeg" alt="46" width="400" height="50"></td>
-        <td><img src="./public/images/047.jpeg" alt="47" width="400" height="50"></td>
-        <td><img src="./public/images/048.jpg" alt="48" width="400" height="50"></td>
-        <td><img src="./public/images/049.jpg" alt="49" width="400" height="50"></td>
-        <td><img src="./public/images/050.jpg" alt="50" width="400" height="50"></td>
+        <td></td>
+        <td><img src="../public/images/042.jpg" alt="42" width="400" height="50"></td>
+        <td><img src="../public/images/043.jpg" alt="43" width="400" height="50"></td>
+        <td><img src="../public/images/044.jpg" alt="44" width="400" height="50"></td>
+        <td><img src="../public/images/045.jpg" alt="45" width="400" height="50"></td>
+        <td></td>
+        <td></td>
+        <td><img src="../public/images/048.jpg" alt="48" width="400" height="50"></td>
+        <td><img src="../public/images/049.jpg" alt="49" width="400" height="50"></td>
+        <td><img src="../public/images/050.jpg" alt="50" width="400" height="50"></td>
       </tr>
       <tr>
-        <td><img src="./public/images/051.jpg" alt="51" width="400" height="50"></td>
-        <td><img src="./public/images/052.jpg" alt="52" width="400" height="50"></td>
-        <td><img src="./public/images/053.jpg" alt="53" width="400" height="50"></td>
-        <td><img src="./public/images/054.jpg" alt="54" width="400" height="50"></td>
-        <td><img src="./public/images/055.jpg" alt="55" width="400" height="50"></td>
-        <td><img src="./public/images/055.jpg" alt="56" width="400" height="50"></td>
-        <td><img src="./public/images/057.jpg" alt="57" width="400" height="50"></td>
-        <td><img src="./public/images/058.jpg" alt="58" width="400" height="50"></td>
-        <td><img src="./public/images/059.jpg" alt="59" width="400" height="50"></td>
-        <td><img src="./public/images/060.jpg" alt="60" width="400" height="50"></td>
+        <td><img src="../public/images/051.jpg" alt="51" width="400" height="50"></td>
+        <td><img src="../public/images/052.jpg" alt="52" width="400" height="50"></td>
+        <td><img src="../public/images/053.jpg" alt="53" width="400" height="50"></td>
+        <td><img src="../public/images/054.jpg" alt="54" width="400" height="50"></td>
+        <td><img src="../public/images/055.jpg" alt="55" width="400" height="50"></td>
+        <td><img src="../public/images/055.jpg" alt="56" width="400" height="50"></td>
+        <td><img src="../public/images/057.jpg" alt="57" width="400" height="50"></td>
+        <td><img src="../public/images/058.jpg" alt="58" width="400" height="50"></td>
+        <td><img src="../public/images/059.jpg" alt="59" width="400" height="50"></td>
+        <td><img src="../public/images/060.jpg" alt="60" width="400" height="50"></td>
       </tr>
     </table>
     

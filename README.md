@@ -15,6 +15,8 @@ npm run dev
 ## Interesting URLs
 
 [Github](https://github.com/mrovira/my60days) + [Web] (https://my60daysreading-mrovira.vercel.app/).
+Complete Dataset: https://docs.google.com/spreadsheets/d/1X9JQsSQ0h4k08LEB60xOHuIoWJx_nWFDAPykPF_7HR0/edit?usp=sharing
+Figma dessign: https://www.figma.com/file/SnLGWLXeyGetKPDcmurs6P/60days?node-id=1%3A4&t=Ewb5qHW8sZaATZ4D-1 
 
 ## Comments
 
