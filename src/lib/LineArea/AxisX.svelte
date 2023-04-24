@@ -94,7 +94,7 @@
     }
   
     .tick text {
-      fill: #666;
+      fill: #ffffff;
     }
   
     .tick .tick-mark,

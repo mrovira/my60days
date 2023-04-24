@@ -89,7 +89,7 @@
     }
   
     .tick text {
-      fill: #666;
+      fill: #fffefe;
     }
   
     .tick.tick-0 line {

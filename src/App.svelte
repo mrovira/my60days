@@ -12,6 +12,17 @@
   //import dataRadar from '../../data/radar.json';
   let w;
   
+//   let table = document.querySelector('table');
+// table.onwheel = function(e) {
+//   if (e.deltaY < 0) {
+//     table.style.fontSize = parseInt(getComputedStyle(table).fontSize) + 1 + 'px';
+//   } else if (e.deltaY > 0) {
+//     table.style.fontSize = parseInt(getComputedStyle(table).fontSize) - 1 + 'px';
+//   }
+//   e.preventDefault();
+// };
+
+
 </script>
 
 <main>
@@ -27,7 +38,82 @@
     
     <h2>Pictures?</h2>
     
-
+    <table class="taula-imatges">
+      <tr >
+        <td class="img-zoom-container"><img src="src\images\001.jpeg" alt="1" width="400" height="50" class="img-zoom-lens" ></td>
+        <td><img src="src\images\002.jpeg" alt="2" width="400" height="50"></td>
+        <td><img src="src\images\003.jpeg" alt="3" width="400" height="50"></td>
+        <td><img src="src\images\004.jpeg" alt="4" width="400" height="50"></td>
+        <td><img src="src\images\005.jpg" alt="5" width="400" height="50"></td>
+        <td><img src="src\images\006.jpg" alt="6" width="400" height="50"></td>
+        <td><img src="src\images\007.1.jpg" alt="7" width="200" height="50">
+          <img src="src\images\007.2.jpeg" alt="7.2" width="200" height="50"></td>
+        <td><img src="src\images\008.jpg" alt="8" width="400" height="50"></td>
+        <td><img src="src\images\009.jpeg" alt="9" width="400" height="50"></td>
+        <td><img src="src\images\010.jpeg" alt="10" width="400" height="50"></td>
+      </tr>
+      <tr>
+        <td><img src="src\images\011.jpg" alt="11" width="400" height="50"></td>
+        <td><img src="src\images\012.jpeg" alt="12" width="400" height="50"></td>
+        <td><img src="src\images\013.1.jpeg" alt="13" width="200" height="50">
+          <img src="src\images\013.2.jpg" alt="13.2" width="200" height="50"></td>
+        <td><img src="src\images\014.jpeg" alt="14" width="400" height="50"></td>
+        <td><img src="src\images\015.jpeg" alt="15" width="400" height="50"></td>
+        <td><img src="src\images\016.jpeg" alt="16" width="400" height="50"></td>
+        <td><img src="src\images\017.jpg" alt="17" width="400" height="50"></td>
+        <td><img src="src\images\018.jpeg" alt="18" width="400" height="50"></td>
+        <td><img src="src\images\019.jpeg" alt="19" width="400" height="50"></td>
+        <td><img src="src\images\020.jpeg" alt="20" width="400" height="50"></td>
+      </tr>
+      <tr>
+        <td><img src="src\images\021.jpeg" alt="21" width="400" height="50"></td>
+        <td><img src="src\images\022.jpeg" alt="22" width="400" height="50"></td>
+        <td><img src="src\images\023.jpeg" alt="23" width="400" height="50"></td>
+        <td><img src="src\images\024.jpeg" alt="24" width="400" height="50"></td>
+        <td><img src="src\images\025.jpg" alt="25" width="400" height="50"></td>
+        <td><img src="src\images\026.jpg" alt="26" width="400" height="50"></td>
+        <td><img src="src\images\027.jpg" alt="27" width="400" height="50"></td>
+        <td><img src="src\images\028.jpg" alt="28" width="400" height="50"></td>
+        <td><img src="src\images\029.jpeg" alt="29" width="400" height="50"></td>
+        <td><img src="src\images\030.jpg" alt="30" width="400" height="50"></td>
+      </tr>
+      <tr>
+        <td><img src="src\images\031.jpeg" alt="31" width="400" height="50"></td>
+        <td><img src="src\images\032.jpg" alt="32" width="400" height="50"></td>
+        <td><img src="src\images\033.jpg" alt="33" width="400" height="50"></td>
+        <td><img src="src\images\034.jpg" alt="34" width="400" height="50"></td>
+        <td><img src="src\images\035.jpeg" alt="35" width="400" height="50"></td>
+        <td><img src="src\images\036.jpg" alt="36" width="400" height="50"></td>
+        <td><img src="src\images\037.jpeg" alt="37" width="400" height="50"></td>
+        <td><img src="src\images\038.jpeg" alt="38" width="400" height="50"></td>
+        <td><img src="src\images\039.jpg" alt="39" width="400" height="50"></td>
+        <td><img src="src\images\040.jpeg" alt="40" width="400" height="50"></td>
+      </tr>
+      <tr>
+        <td><img src="src\images\041.jpeg" alt="41" width="400" height="50"></td>
+        <td><img src="src\images\042.jpg" alt="42" width="400" height="50"></td>
+        <td><img src="src\images\043.jpg" alt="43" width="400" height="50"></td>
+        <td><img src="src\images\044.jpg" alt="44" width="400" height="50"></td>
+        <td><img src="src\images\045.jpg" alt="45" width="400" height="50"></td>
+        <td><img src="src\images\046.jpeg" alt="46" width="400" height="50"></td>
+        <td><img src="src\images\047.jpeg" alt="47" width="400" height="50"></td>
+        <td><img src="src\images\048.jpg" alt="48" width="400" height="50"></td>
+        <td><img src="src\images\049.jpg" alt="49" width="400" height="50"></td>
+        <td><img src="src\images\050.jpg" alt="50" width="400" height="50"></td>
+      </tr>
+      <tr>
+        <td><img src="src\images\051.jpg" alt="51" width="400" height="50"></td>
+        <td><img src="src\images\052.jpg" alt="52" width="400" height="50"></td>
+        <td><img src="src\images\053.jpg" alt="53" width="400" height="50"></td>
+        <td><img src="src\images\054.jpg" alt="54" width="400" height="50"></td>
+        <td><img src="src\images\055.jpg" alt="55" width="400" height="50"></td>
+        <td><img src="src\images\055.jpg" alt="56" width="400" height="50"></td>
+        <td><img src="src\images\057.jpg" alt="57" width="400" height="50"></td>
+        <td><img src="src\images\058.jpg" alt="58" width="400" height="50"></td>
+        <td><img src="src\images\059.jpg" alt="59" width="400" height="50"></td>
+        <td><img src="src\images\060.jpg" alt="60" width="400" height="50"></td>
+      </tr>
+    </table>
     <p>First rellevant thing is to compare motivation vs tiredness to answer the question if tiredness played an important role.</p>
 
     <div class="radials">
@@ -70,7 +156,35 @@
 
     <h2>Will I achieve my goal?</h2>
     
-
+    <table class="taula">
+      <tr>
+        <td class="taula-1">Previous</td>
+      </tr>
+      <tr>
+        <td class="taula-2">Total pages 2022: 4000 <sub class="taula-3">11 p/d</sub></td>
+        <td class="taula-2"> Total books 2022: 12</td>
+      </tr>
+      <tr>
+        <td class="taula-1">Actual</td>
+      </tr>
+      <tr>
+        <td class="taula-2">Total pages 2023: 398 <sub class="taula-3">6 p/d</sub></td>
+        <td class="taula-2"> Current books 2023: 3</td>
+      </tr>
+      <tr>
+        <td class="taula-1">Expectations</td>
+      </tr>
+      <tr>
+        <td class="taula-2">Expected pages 2023: 6000 </td>
+        <td class="taula-2">Expected books 2023: 18</td>
+      </tr>
+      <tr>
+        <td class="taula-1">Can it be achieve?</td>
+      </tr>
+      <tr>
+        <td class="taula-2"><span class="highlighted">There's still a chance, but I need to increase the rythm</span></td>
+      </tr>
+    </table>
  
 
 </main>
@@ -94,6 +208,33 @@
   .radials {
     width: 100%;
   }
+  .taula-1 {
+    color: white;
+    font-weight: bold;
+    text-align: left;
+  }
+  .taula-2 {
+    color: white;
+  }
+  .taula-3 {
+    color: rgb(199, 197, 197);
+  }
+  .taula {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  td {
+    padding-top: 10px;
+  padding-bottom: 20px;
+  }
+  .taula-imatges {
+    margin-left: 10px;
+    margin-right: auto;
+  }
+  img {
+    max-width: 100%;
+    max-height: 100%;
+}
   /* .bee {
     background-color: white;
   } */
@@ -150,4 +291,5 @@
   :global(.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip, .maplibregl-popup-anchor-bottom .maplibregl-popup-tip) {
     border-top-color: #3F93F4;
   }
+
 </style>
