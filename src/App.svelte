@@ -1,81 +1,15 @@
 <script>
   
   import { LayerCake } from 'layercake';
-  //const multilineColors1 = ['#18307b', '#eedd00','#eb6109','#fdb94d','#ed5975','#aaa','#00ff7f','#4488cc','#ee0000','#912c45','#63be21'];
-  //const multilineColors2 = ['#008837','#a6dba0','#c2a5cf','#7b3294'];
+  import { MobileKeyboard, Gif } from 'svelte-tenor';
   import RadarT from "./lib/radar/myRadarT.svelte";
   import RadarM from "./lib/radar/myRadarM.svelte";
-  //import MyBeeswarm from './lib/beeswarm/myBeeswarm.svelte';
   import MyChart from './lib/LineArea/myChart.svelte';
   import MyBeeswarmForce from './lib/beeswarnFroce/myBeeswarmForce.svelte';
   import MyCricle from './lib/circleForce/myCricle.svelte';
-  //import dataRadar from '../../data/radar.json';
-
-  // import image1 from "../public/images/001.jpeg";
-  // import image2 from "../public/images/002.jpeg";
-  // import image4 from "../public/images/004.jpeg";
-  // import image5 from "../public/images/005.jpg";
-  // import image6 from "../public/images/006.jpg";
-  // import image71 from "../public/images/007.1.jpg";
-  // import image72 from "../public/images/007.2.jpeg";
-  // import image8 from "../public/images/008.jpg";
-  // import image9 from "../public/images/009.jpeg";
-  // import image10 from "../public/images/010.jpeg";
-  // import image11 from "../public/images/011.jpg";
-  // import image12 from "../public/images/012.jpeg";
-  // import image131 from "../public/images/013.1.jpeg";
-  // import image132 from "../public/images/013.2.jpg";
-  // import image14 from "../public/images/014.jpeg";
-  // import image15 from "../public/images/015.jpeg";
-  // import image16 from "../public/images/016.jpeg";
-  // import image17 from "../public/images/017.jpg";
-  // import image18 from "../public/images/018.jpeg";
-  // import image19 from "../public/images/019.jpeg";
-  // import image20 from "../public/images/020.jpeg";
-  // import image21 from "../public/images/021.jpeg";
-  // import image22 from "../public/images/022.jpeg";
-  // import image23 from "../public/images/023.jpeg";
-  // import image25 from "../public/images/025.jpg";
-  // import image26 from "../public/images/026.jpg";
-  // import image27 from "../public/images/027.jpg";
-  // import image28 from "../public/images/028.jpg";
-  // import image30 from "../public/images//030.jpg";
-  // import image32 from "../public/images/032.jpg";
-  // import image33 from "../public/images/033.jpg";
-  // import image34 from "../public/images/034.jpg";
-  // import image35 from "../public/images/035.jpeg";
-  // import image36 from "../public/images/036.jpg";
-  // import image38 from "../public/images/038.jpeg";
-  // import image39 from "../public/images/039.jpg";
-  // import image42 from "../public/images/042.jpg";
-  // import image43 from "../public/images/043.jpg";
-  // import image44 from "../public/images/044.jpg";
-  // import image45 from "../public/images/045.jpg";
-  // import image48 from "../public/images/048.jpg";
-  // import image49 from "../public/images/049.jpg";
-  // import image50 from "../public/images/050.jpg";
-  // import image51 from "../public/images/051.jpg";
-  // import image52 from "../public/images/052.jpg";
-  // import image53 from "../public/images/053.jpg";
-  // import image54 from "../public/images/054.jpg";
-  // import image55 from "../public/images/055.jpg";
-  // import image56 from "../public/images/055.jpg";
-  // import image57 from "../public/images/057.jpg";
-  // import image58 from "../public/images/058.jpg";
-  // import image59 from "../public/images/059.jpg";
-  // import image60 from "../public/images/060.jpg";
 
   let w;
-  
-//   let table = document.querySelector('table');
-// table.onwheel = function(e) {
-//   if (e.deltaY < 0) {
-//     table.style.fontSize = parseInt(getComputedStyle(table).fontSize) + 1 + 'px';
-//   } else if (e.deltaY > 0) {
-//     table.style.fontSize = parseInt(getComputedStyle(table).fontSize) - 1 + 'px';
-//   }
-//   e.preventDefault();
-// };
+  let gif;
 
 
 </script>
@@ -87,8 +21,9 @@
     <p>By Marina Rovira Boix</p>
   
   </header>
-    <h2>How has my progress been?</h2>
-    <p>This project aims to explore a little bit my reading habits within 60 days to check if I will achieve my goal in Goodreads of 18 book read this year 2023. For that, din these 60 days, I have tracked my progress reading, including the number of pages, the time, motivation and tiredness in the moment.</p>
+  <br>
+  <br>
+  <p>This project aims to explore a little bit my reading habits within 60 days to check if I will achieve my goal in Goodreads of 18 book read this year 2023. For that, din these 60 days, I have tracked my progress reading, including the number of pages, the time, motivation and tiredness in the moment.</p>
     <br>
     
     <h2>Pictures</h2>
@@ -246,7 +181,7 @@
         <td class="taula-21">There's still a chance, but I need to increase the rythm</td>
       </tr>
     </table>
- 
+    <p><img src="images/giphy.gif" alt="gif"></p>
 
 </main>
 
@@ -256,10 +191,8 @@
     font-size: 1.4rem;
     color: #F4A03F;
   }
-  .taula-21
-  {
-    color: #F4A03F;
-    text-align: right;
+  .taula-21 {
+    text-align: center;
   }
   .rad-chart1 {
     width: 400;
